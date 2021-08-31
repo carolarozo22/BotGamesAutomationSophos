@@ -1,0 +1,43 @@
+<config>
+	
+	<!--- Email messages -->
+	<MailSender>Robot RPA</MailSender>
+	<Correo_Negocio>ximena.valero@sophossolutions.com</Correo_Negocio>
+	<MailSystems>ximena.valero@sophossolutions.com</MailSystems>
+	<EmailSubject>Vacation request - Request ID:</EmailSubject>
+	<MailPort>587</MailPort>
+	<MailServer>smtp.gmail.com</MailServer>
+	<MailPortRead>993</MailPortRead>
+	<MailServerRead>imap.gmail.com</MailServerRead>
+	
+	<!-- These fields are generic to all processes  -->
+	<Process_Name>Vacation request</Process_Name>
+	<Version_Robot>1.0</Version_Robot>
+	<NUM_Retries>2</NUM_Retries>
+	
+	<!-- Process fields  -->
+	<URL_PagePackages>https://www.kayak.com.co/citybreaks</URL_PagePackages>
+  	<URL_PageFlight>https://www.kayak.com.co/?ispredir=true</URL_PageFlight>
+  	<URL_PageAccommodation>https://www.booking.com/</URL_PageAccommodation>
+  	<ExcelPath>Searchresults.xlsx</ExcelPath>
+  	<FlightResult>FlightResultIMG.jpg</FlightResult>
+	
+	<!-- DB Configuration  
+	<UsernameSQL>sa</UsernameSQL>
+  	<PasswordSQL>*Mgs287955*</PasswordSQL>
+  	<DataBaseSQL>solicitud_vacaciones</DataBaseSQL>
+  	<ServerSQL>SSBOGLAPPROMG29</ServerSQL>-->
+	
+  	<!-- DB Configuration -->
+	<!--<UsernameSQL>sa</UsernameSQL>
+  	<PasswordSQL>Ambiental12345..</PasswordSQL>
+  	<DataBaseSQL>solicitud_vacaciones</DataBaseSQL>
+  	<ServerSQL>SBBOGLAPROMM24\SQLEXPRESS</ServerSQL> -->
+  
+    	<!-- DB Configuration -->
+	<UsernameSQL>sa</UsernameSQL>
+  	<PasswordSQL>Azxc123*</PasswordSQL>
+  	<DataBaseSQL>solicitud_vacaciones</DataBaseSQL>
+  	<ServerSQL>SSBOG5CD119BYNP\SQLEXPRESS</ServerSQL>
+	
+</config>
